@@ -1,0 +1,57 @@
+img{
+    width: 100px;
+    height: 100px;
+}
+.image{
+    display: inline;
+}
+.header{
+    display: inline;
+    margin: 10px;
+}
+.headd{
+    margin-top: 15px;
+}
+.user{
+    display: flex;
+    padding-left: 40px;
+}
+.content{
+    margin-left: 10px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    background-color: white;
+    border: 1px solid;
+  }
+  
+  th {
+    border: 1px solid grey;
+    text-align: left;
+    padding: 8px;
+    background-color: grey;
+    border: 1px solid;
+  }
+  td{
+      border: 1px solid;
+  }
+  .check{
+      display: flex;
+      margin: 20px;
+  }
+  .alerts{
+      display: inline;
+      margin: 20px;
+  }
+  .bind{
+      display: inline;
+      margin: 20px;
+  }
+  input[type=text]{
+      width: 200px;
+      padding: 10px;
+  }
+
+  

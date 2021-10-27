@@ -1,0 +1,46 @@
+.about-content{
+    display: flex;
+    margin: 10px;
+}
+.about-image{
+    display: inline;
+    border: 2px solid;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+.about-text{
+    display: inline;
+    margin: 10px;
+}
+.content{
+    margin: 10px;
+}
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+.color-button{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+.button{
+    display: flex;
+}
+.color-button1{
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    100%   {background-color:red}
+  }

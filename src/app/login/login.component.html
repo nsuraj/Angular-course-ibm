@@ -1,0 +1,41 @@
+<!-- <div class="formcontainer"> -->
+    <!-- <div class="formbody"> -->
+        <div class="errorc" *ngIf="erroryes">                
+            {{successMessage}}
+        </div>
+        <form style="width:100%;" [formGroup]="loginForm">
+            <!-- <div class="header">Welcome</div> -->
+            <div class="loginclass">
+            <div class="row">
+                <p class="label">
+                User ID
+                </p>
+                <!-- <mat-form-field style="width:50%;"> -->
+                    <input type="text" formControlName="email" placeholder="Enter User ID">
+                <!-- </mat-form-field> -->
+                <span *ngIf="isValid('email')">Username cannot be blank</span>
+            </div>
+            <div class="row">
+                <p class="label1">
+                Password
+                </p>
+                <!-- <mat-form-field style="width:100%;"> -->
+                    <input type="password" formControlName="password" matInput placeholder="Password">
+                <!-- </mat-form-field> -->
+                <span *ngIf="isValid('password')">Password cannot be blank</span>
+            </div>
+            <div class="buttons">
+                <button class="form-btn" (click)="login()">Log In</button>
+                <button class="form-btn-hollow" (click)="movetoregister()">Register</button>
+            </div>
+        
+    <!-- </div> -->
+
+    <!-- <div>
+        <div style="width: 290px; padding: 20px;">
+            <button class="form-btn-hollow" (click)="movetoregister()">Register</button>
+        </div>
+    </div> -->
+    </div>
+    </form>
+<!-- </div> -->

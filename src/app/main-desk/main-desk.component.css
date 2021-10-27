@@ -1,0 +1,28 @@
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #CC0000;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/* .header{
+    display: flex;
+} */
+.head1{
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+}
+.headerLogo{
+    /* font-family: 'Lobster', cursive; */
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 48px;
+    color: white;
+}
+.formarea{
+    padding: 20px;
+}

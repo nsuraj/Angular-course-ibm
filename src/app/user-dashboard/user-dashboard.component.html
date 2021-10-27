@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="headerbar">
+      <p class="para-class">Angular JS</p>
+      <span>iJavaScript</span>
+    </div>
+    <div class="button-bar">
+      <button class="headon" (click)="board()"><strong>DashBoard</strong></button>
+      <button class="headon" (click)="about()"><strong>About</strong></button>
+      <button class="headon" (click)="team()"><strong>Team</strong></button>
+      <button mat-raised-button color="primary" (click)="logout()">Logout</button>
+    </div>
+    <!-- <div class="boom">
+      <h1>Hello {{username}}</h1> <h2>you have successfully logged in using JWT.</h2>
+      
+      <button mat-raised-button color="primary" (click)="logout()">Logout</button>
+    </div> -->
+    <router-outlet></router-outlet>    
+  </div>

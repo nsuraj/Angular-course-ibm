@@ -1,0 +1,52 @@
+ <div class="user">
+     <div class="image">
+     <img src="../../assets/default-image.jpg" alt="default">
+     </div>
+     <div class="header">
+      <h1 class="headd">Welcome {{username}} !</h1> 
+      <p class="para">Last Login:</p>
+      </div>
+      
+      <!-- <button mat-raised-button color="primary" (click)="logout()" style="height: 50px;">Logout</button> -->
+    </div>
+    <hr style="height: 2px;">
+    <div class="content">
+        <h3 style="color: rgb(201, 9, 9);"><strong>Account balance: 3000</strong></h3>
+        <table>
+            <tr>
+              <th>Date</th>
+              <th>Description</th>
+              <th>Amount</th>
+            </tr>
+            <tr>
+                <td>01-Feb-2018</td>
+                <td>Room Rent</td>
+                <td>700</td>
+              </tr>
+              <tr>
+                <td>02-Feb-2018</td>
+                <td>Morrision</td>
+                <td>20</td>
+              </tr>
+        </table>
+        <hr style="height: 2px;">
+        <div class="check">
+            <div class="alerts">
+                <h2>Subscribe to Alerts</h2>
+                <div class="row">
+                <input type="checkbox" id="sms" name="sms" value="SMS Alert"> SMS Alert
+                </div>
+                <div class="row">
+                    <input type="checkbox" id="mark" name="mark" value="Marketting Newsletter">Marketting Newsletter
+                    </div>
+                    <div class="row">
+                <input type="checkbox" id="fly" name="fly" value="Flyers">Flyers
+                </div>
+            </div>
+            <div class="bind">
+                <h2>Two Way Data Binding</h2>
+                <input type="text" placeholder="Enter a value for two way binding">
+            </div>
+        </div>
+        <button mat-raised-button color="primary" >Submit</button>
+    </div>
